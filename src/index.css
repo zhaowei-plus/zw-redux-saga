@@ -1,0 +1,33 @@
+
+.overlay{
+    box-sizing:border-box;
+    position: fixed;
+    top:50%;
+    left:50%;
+    width:260px;
+    height:200px;
+    margin-left:-130px;
+    margin-top:-100px;
+    padding:10px;
+    background-color: #fff;
+    /* 这里使用outline设置四个边框，充当背景遮罩层 */
+    outline: rgba(0, 0, 0, .5) solid 9999px;
+}
+
+.overlay-close{
+    position: absolute;
+    top:10px;
+    right:10px;
+    color:red;
+    cursor: pointer;
+}
+
+.topic-content img {
+    width: 100%;
+    height: auto;
+}
+
+.border {
+    box-sizing: border-box;
+    border: 1px solid red !important;
+}
