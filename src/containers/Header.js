@@ -7,7 +7,7 @@ const Header = (props) => {
     <nav className="navbar navbar-default navbar-fixed-top">
       <div className="header-limit">
         <a href="https://cnodejs.org/" className="logo">
-          <span className="node-title">CNodeJs社区</span>
+          <span className="node-title">学习社区</span>
         </a>
 
         <div className="container">
